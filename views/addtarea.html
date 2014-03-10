@@ -1,0 +1,15 @@
+<header class="bar bar-nav">
+  <a href="#/tareas" class="icon icon-left-nav pull-left"></a>
+</header>
+
+<div class="content" >
+  <form>
+    <div class="input-group">
+        <input type="text" placeholder="Nombre de la tarea" ng-model="tarea.titulo">
+        <input type="text" placeholder="Descripción corta" ng-model="tarea.desccorta">
+        <textarea rows="3" placeholder="Descripción larga" ng-model="tarea.desclarga"></textarea>
+    </div>
+    <div>&nbsp;</div>
+    <button class="btn btn-primary" ng-click="addtarea()">Agregar</button>
+  </form>
+</div>

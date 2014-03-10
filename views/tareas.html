@@ -1,0 +1,19 @@
+<header class="bar bar-nav">
+  <h1 class="title">App con AngularJS + Ratchet 2</h1>
+</header>
+
+<div class="content">
+	<div>&nbsp;</div>
+	<input type="search" placeholder="buscar..." ng-model="query">
+	<div>&nbsp;</div>
+	<button class="btn btn-primary btn-outlined" onClick="window.location='#/addtarea'">Agregar tarea</button>
+	<div>&nbsp;</div>
+	<ul class="table-view">
+	  <li ng-repeat='tarea in tareas | filter:query' class="table-view-cell">
+	    <a ng-href="#/tarea/{{tarea.id}}" data-transition="slide-in">
+	      {{tarea.titulo}}
+	    </a>
+	  </li>
+	</ul>
+</div>
+

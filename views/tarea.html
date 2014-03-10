@@ -1,0 +1,16 @@
+<header class="bar bar-nav">
+  <a href="#/tareas" ng-click="$emit('MyEvent')" class="icon icon-left-nav pull-left"></a>
+  <h1 class="title">{{tarea.titulo}}</h1>
+</header>
+
+<div class="content">
+	<ul class="table-view">
+	  <li class="table-view-divider">Titulo</li>
+	  <li class="table-view-cell">{{tarea.titulo}}</li>
+	  <li class="table-view-divider">Descripción corta</li>
+	  <li  class="table-view-cell">{{tarea.desccorta}}</li>
+	  <li class="table-view-divider">Descripción larga</li>
+	  <li  class="table-view-cell">{{tarea.desclarga}}</li>
+	</ul>
+	<button class="btn btn-negative" ng-click="deletetarea()"><span class="icon icon-trash"></span> Borrar</button>
+</div>

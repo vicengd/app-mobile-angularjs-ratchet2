@@ -1,0 +1,20 @@
+[
+   {
+	 "id": "1",
+	 "titulo": "Tarea 1",
+	 "desccorta": "Descripción corta de tarea 1",
+	 "desclarga": "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+	},
+	{
+	 "id": "2",
+	 "titulo": "Tarea 2",
+	 "desccorta": "Descripción corta de tarea 2",
+	 "desclarga": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. "
+	},
+	{
+	 "id": "3",
+	 "titulo": "Tarea 3",
+	 "desccorta": "Descripción corta de tarea 3",
+	 "desclarga": "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+	}
+]
