@@ -4,7 +4,7 @@ angular.module('app.controllers', [])
 		$scope.tareas = JSON.parse(localStorage.getItem('tareas-ratchet2'));
 	}
 	else {
-	        $http.get('data/tareas2.json').success(function(data) {
+	        $http.get('data/list.json').success(function(data) {
 	            localStorage.setItem('tareas-ratchet2', JSON.stringify(data));
 	            $scope.tareas = data;
 	        });
